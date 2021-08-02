@@ -26,12 +26,6 @@ Below are the results of the balanced accuracy scores, the precision, and recall
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
-
 The results regarding accuracy of the minority class are actually mixed when comparing the classifiction reports generated from the predictions with the original data versus the predictions with the resampled data. 
 
 First, the accuracy score higher for the resampled data (99.37% vs 95.20%), meaning that the model using resampled data was better at detecting true positives and true negatives. 
